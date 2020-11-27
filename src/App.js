@@ -1,10 +1,15 @@
 import './App.css';
+import FetchData from './components/FetchData';
 
 function App() {
   
   return (
-    <div className="">
-      <h1>Hello</h1>
+    <div className="container">
+      
+      <br></br>
+      <h1>Call API and populate the response in Table using React </h1>
+      <br></br>
+      <FetchData />
     </div>
   );
 }
